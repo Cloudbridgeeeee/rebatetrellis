@@ -1,0 +1,11 @@
+{
+ "page": "dist/index.html",
+ "dir": "/home/user/rebatetrellis",
+ "kind": "software",
+ "start": "2026-11-25T02:41:09.341Z",
+ "by": "start.mjs",
+ "url": null,
+ "root": "dist",
+ "category": "supplier rebate software",
+ "primary": "Request a pilot"
+}

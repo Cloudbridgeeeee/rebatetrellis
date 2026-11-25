@@ -1,0 +1,187 @@
+{
+  "name": "RebateTrellis",
+  "primary": "Request a pilot",
+  "accent": "#a1ffcb",
+  "ink": "#232323",
+  "bg": "#ffffff",
+  "surface": "#f3f3f3",
+  "fontLink": "<link href=\"https://fonts.googleapis.com/css2?family=Reddit+Sans:wght@400..700&family=JetBrains+Mono:wght@400..500&display=swap\" rel=\"stylesheet\">",
+  "fontDisplay": "\"Reddit Sans\", system-ui, sans-serif",
+  "fontText": "\"Reddit Sans\", system-ui, sans-serif",
+  "client": "Ikeja Wholesale, Lagos",
+  "note": "A fixed set of ten supplier agreements. Results here come from fixed data in your browser; no AI service is called.",
+  "tabs": {
+    "overview": "Rebates",
+    "records": "Agreements",
+    "queue": "Calculations to review"
+  },
+  "overview": {
+    "title": "Q3 rebates by supplier",
+    "kpis": [
+      [
+        "Agreements",
+        "10"
+      ],
+      [
+        "Rebates earned",
+        "7"
+      ],
+      [
+        "Tiers missed",
+        "2"
+      ],
+      [
+        "Claimable, ₦m",
+        "46.8"
+      ]
+    ],
+    "chart": {
+      "title": "Rebate earned per supplier, ₦m",
+      "labels": [
+        "Lagoon",
+        "Savanna",
+        "Ogun",
+        "Niger",
+        "Eko",
+        "Kano",
+        "Delta",
+        "Abuja"
+      ],
+      "values": [
+        18.6,
+        6.2,
+        3.1,
+        4.4,
+        2.8,
+        3.4,
+        1.9,
+        6.4
+      ],
+      "threshold": 3,
+      "thresholdLabel": "Review above ₦3m",
+      "caption": "Rebates over ₦3m get a second reviewer."
+    }
+  },
+  "records": {
+    "title": "Agreements",
+    "searchHint": "Supplier or clause",
+    "statusCol": 3,
+    "columns": [
+      "Supplier",
+      "Rebate type",
+      "Period",
+      "Status",
+      "Amount",
+      "Next step"
+    ],
+    "tones": {
+      "Missed": "bad",
+      "Partly met": "warn",
+      "Earned": "good"
+    },
+    "rows": [
+      [
+        "Lagoon Drinks",
+        "Volume tier 1",
+        "Q3",
+        "Earned",
+        "₦18.6m",
+        "Calculation to approve"
+      ],
+      [
+        "Lagoon Drinks",
+        "Volume tier 2",
+        "Q3",
+        "Missed",
+        "₦0",
+        "Note for Q4 orders"
+      ],
+      [
+        "Savanna Foods",
+        "Growth",
+        "Q3",
+        "Earned",
+        "₦6.2m",
+        "Calculation to approve"
+      ],
+      [
+        "Kano Dairy",
+        "Volume",
+        "Q3",
+        "Partly met",
+        "₦3.4m",
+        "Credit note short"
+      ],
+      [
+        "Delta Oils",
+        "Display",
+        "Q3",
+        "Partly met",
+        "₦1.9m",
+        "Evidence due"
+      ],
+      [
+        "Eko Paper",
+        "Listing fee",
+        "Q3",
+        "Earned",
+        "₦2.8m",
+        "Claimed"
+      ],
+      [
+        "Ogun Cereals",
+        "Prompt payment",
+        "Q3",
+        "Earned",
+        "₦3.1m",
+        "Claimed"
+      ],
+      [
+        "Niger Soaps",
+        "Volume tier 1",
+        "Q3",
+        "Earned",
+        "₦4.4m",
+        "Claimed"
+      ],
+      [
+        "Ibadan Plastics",
+        "Volume tier 1",
+        "Q3",
+        "Missed",
+        "₦0",
+        "Note for Q4 orders"
+      ]
+    ]
+  },
+  "queue": {
+    "title": "Calculations waiting for review",
+    "lead": "Each calculation lists its clause and the purchases behind it. No claim goes to a supplier until a reviewer approves.",
+    "items": [
+      {
+        "id": "lagoon",
+        "title": "Lagoon Drinks: tier 1 volume rebate, ₦18.6m",
+        "detail": "Clause 4.1. 31,400 cases counted after returns.",
+        "reason": "Q3 purchases passed 20,000 cases; 2% of ₦930m net."
+      },
+      {
+        "id": "savanna",
+        "title": "Savanna Foods: growth rebate, ₦6.2m",
+        "detail": "Clause 4.4. 1,312 invoices compared with Q3 last year.",
+        "reason": "Net purchases grew 14% against a 10% condition."
+      },
+      {
+        "id": "kano",
+        "title": "Kano Dairy: credit note shortfall, ₦1.3m",
+        "detail": "Clause 3.2. Credit note received for ₦2.1m.",
+        "reason": "The agreement gives ₦3.4m on Q3 volume."
+      },
+      {
+        "id": "delta",
+        "title": "Delta Oils: display rebate, ₦1.9m",
+        "detail": "Schedule B. Two of three store photos received.",
+        "reason": "The rebate needs display evidence for each store."
+      }
+    ]
+  }
+}
